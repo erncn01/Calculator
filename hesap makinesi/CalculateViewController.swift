@@ -16,7 +16,6 @@ class CalculateViewController: UIViewController {
     @IBOutlet weak var sumButton: UIButton!
     @IBOutlet weak var equalButton: UIButton!
     
-    
     @IBOutlet weak var zeroButton: UIButton!
     @IBOutlet weak var oneButton: UIButton!
     @IBOutlet weak var twoButton: UIButton!
@@ -31,10 +30,7 @@ class CalculateViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         addTargetToAllButtons()
-        
-        
     }
     
     func addTargetToAllButtons() {
